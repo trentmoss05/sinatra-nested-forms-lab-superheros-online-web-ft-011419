@@ -2,6 +2,11 @@
 
 <form action="/teams" method="post">
   Team Name: <input type="text" name="team[name]"><br>
-  Team Motto: <input type="text" name="team[motto]">
+  Team Motto: <input type="text" name="team[motto]"><br><br>
+
+  <h2>Hero 1</h2>
+  Hero's Name: <input type="text" name="team[members][][name]">
+  Hero's Power: <input type="text" name="team[members][][power]">
+  Hero's Biography: <input type="text" name="team[members][][biography]">
 
 </form>
